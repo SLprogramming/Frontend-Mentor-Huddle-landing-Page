@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: hsl(257, 40%, 49%) url("./images/bg-desktop.svg");
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 85%;
+  margin: 0 auto;
+}
+.logo {
+  margin: 0 auto;
+}
+.contant {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+h1 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+p {
+  text-align: left;
+  font-size: 15px;
+  color: rgb(215, 215, 215);
+  margin-bottom: 20px;
+}
+.registerBtn {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.354);
+  cursor: pointer;
+  user-select: none;
+}
+.textSide {
+  position: relative;
+}
+.texts {
+  text-align: left;
+}
+.contact {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logoContiner {
+  right: 0;
+  display: flex;
+  width: 200px;
+}
+.circle {
+  margin: 0px 10px;
+  border: 1px solid white;
+  padding: 6px 10px;
+  border-radius: 50px;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
+.circle:hover {
+  border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+}
+@media only screen and (max-width: 766px) {
+  .imgSide {
+    margin-bottom: 50px;
+  }
+  .texts {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .registerBtn {
+    margin: 50px auto;
+  }
+  .logoContiner {
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 376px) {
+  body {
+    background: hsl(257, 40%, 49%) url("./images/bg-mobile.svg");
+  }
+}
